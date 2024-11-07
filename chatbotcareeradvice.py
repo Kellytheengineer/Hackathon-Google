@@ -6,7 +6,7 @@ def setup_stem_advisor():
     """
     Sets up a specialized STEM career guidance chatbot
     """
-    GOOGLE_API_KEY = "AIzaSyCWBM4iKNZop1VbnNr--PbVHkphk9aXpOM"
+    GOOGLE_API_KEY = ""
     genai.configure(api_key=GOOGLE_API_KEY)
 
     # Initialize the model
